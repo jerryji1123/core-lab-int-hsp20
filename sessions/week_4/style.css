@@ -1,0 +1,108 @@
+body {
+  @include font-base;
+  line-height: 2;
+  font-size: large;
+  background-color: #354B5E;
+  display: grid;
+  grid-template:
+    "header header header header" 10em
+    "hero hero hero hero" 50vh
+    ". main sidebar ." auto
+    "footer footer footer footer" 10em
+    / 1fr minmax(30em, 5fr) minmax(15em, 2fr) 1fr;
+  grid-column-gap: 1.5em;
+}
+
+header {
+  grid-area: header;
+}
+
+header,
+footer {
+  background: $black;
+  color: $yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title,
+.footer-title {
+  @include font-alt($color: $yellow, $font-size: $fs-h2);
+}
+
+.hero {
+  grid-area: hero;
+  background-color:#354B5E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  @include font-alt($fs-xl);
+  margin: 0;
+  color: #ff6768;
+  font-size: 15em;
+}
+
+.hero-subtitle {
+  @include font-base($color: $white, $font-size: $fs-h2);
+  margin: 0;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: sidebar;
+  background: $dark-gray;
+  padding: 2em;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.card {
+  display: grid;
+  grid-template:
+    "img title" min-content
+    "img content" auto / 1fr 3fr;
+  grid-column-gap: 1.5em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.card-img {
+  grid-area: img;
+  color: white;
+}
+
+.card-title {
+  grid-area: title;
+  margin: 0;
+  font-weight: 300;
+  color: white;
+}
+
+.card-content {
+  grid-area: content;
+
+  a {
+    color: $yellow;
+    font-size: 1.1em;
+  }
+}
+
+h1 {
+  color:white;
+}
+
+
+
+
+

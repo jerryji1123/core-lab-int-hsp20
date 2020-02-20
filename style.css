@@ -20,12 +20,12 @@ h1 {
 .section {
     background-color: black;
     color: white;
-    width: 20em;
-    height: 20em;
-    display: inline-flex;
+    width: 10em;
+    height: 10em;
     align-items: center;
     justify-content: center;
     transition: 0.5s ease-in-out;
+    display: inline grid;
 }
 
 .section:hover{
