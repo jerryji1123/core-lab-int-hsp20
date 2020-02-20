@@ -10,8 +10,11 @@ body, html {
 	justify-content: center;
 }
 .centered {
-    max-width: 80%;
-}
+    max-width: 100%;
+    display:grid;
+    align-items: left;
+
+ }
 
 h1 {
 
@@ -34,8 +37,6 @@ h1 {
 }
 
 .section h1 {
-
-
 }
 
 a{
