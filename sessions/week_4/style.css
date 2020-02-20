@@ -2,7 +2,7 @@ body {
   @include font-base;
   line-height: 2;
   font-size: large;
-  background-color: #354B5E;
+  background-color: #475f77;
   display: grid;
   grid-template:
     "header header header header" 10em
@@ -33,7 +33,7 @@ footer {
 
 .hero {
   grid-area: hero;
-  background-color:#354B5E;
+  background-color:#475f77;
   display: flex;
   flex-direction: column;
   align-items: center;
