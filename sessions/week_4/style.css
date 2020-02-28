@@ -68,18 +68,11 @@ footer {
 
 .card {
   display: grid;
-  grid-template:
-    "img title" min-content
-    "img content" auto / 1fr 3fr;
+  grid-template-columns: 1fr;
   grid-column-gap: 1.5em;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
   padding: 1.5em;
   margin-bottom: 1.5em;
-}
-
-.card-img {
-  grid-area: img;
-  color: white;
 }
 
 .card-title {
@@ -87,6 +80,7 @@ footer {
   margin: 0;
   font-weight: 300;
   color: white;
+  grid-column: 
 }
 
 .card-content {
@@ -101,6 +95,13 @@ footer {
 h1 {
   color:white;
 }
+
+.color1{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color:#D74B4B;
+}
+
 
 
 
