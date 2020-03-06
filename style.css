@@ -30,7 +30,7 @@ span::after {
 .slide {
   clear:both;
   width:100%;
-  height: auto;
+  height: 0px;
   overflow: hidden;
   text-align: center;
   transition: height .4s ease;
@@ -44,4 +44,4 @@ span::after {
 
 #touch2 {position: absolute; opacity: 0; height: 0px;}    
 
-#touch2:checked + .slide {height: 300px;} 
+#touch2:checked + .slide {height: 500px;} 
