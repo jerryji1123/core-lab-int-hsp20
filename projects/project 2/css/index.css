@@ -226,22 +226,24 @@ html {
   margin-top: -20px;
 }
 .index .content .contxt h1 {
-  font-size: 90px;
+  font-size: 85px;
   color: #e50343;
-  line-height: 80px;
+  line-height: 75px;
+  font-weight: bold;
 }
 .index .content .contxt .smalltxt {
-  font-size: 28px;
+  font-size: 26px;
   color: #707070;
-  padding-bottom: 30px;
+  padding-bottom: 32px;
+  font-weight: bold;
 }
 .index .content .contxt a {
   color: #000;
   font-size: 14px;
 }
 .index .content .contxt a img {
-  width: 40px;
-  height: 40px;
+  width: 41px;
+  height: 41px;
   border-radius: 50%;
   margin-left: 30px;
   display: inline-block;
@@ -250,6 +252,7 @@ html {
 .index .content .contxt a:hover {
   color: #e50343;
   font-weight: bold;
+  font-size: 20px;
 }
 .page1 {
   background-color: #f2afc2;
@@ -368,18 +371,21 @@ html {
   font-size: 80px;
   color: #fff;
   padding: 0 80px;
+  font-weight: bold;
 }
 .page2 .topic{
   font-size: 60px;
   color: #fff;
   text-align: left;
   padding: 0 120px;
+  font-weight: bold;
 }
 .page2 .desc {
   font-size: 20px;
   color: #fff;
   text-align: left;
   padding: 0 120px;
+  font-weight: bold;
 }
 .page2 .line3 .con {
   width: 50%;
