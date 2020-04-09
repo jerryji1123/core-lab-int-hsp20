@@ -1,10 +1,15 @@
 /* Load the variable font */
 @font-face {
-  font-family: 'Jura', sans-serif;
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/57225/Roboto-VF.woff2') format('woff2-variations');
-  font-stretch: 75% 100%;
-  font-style: oblique 0deg 12deg;
-  font-weight: 100 900;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/jura-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/jura-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/jura-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/jura-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/jura-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/jura-v14-latin-regular.svg#Jura') format('svg'); /* Legacy iOS */
 }
 
 :root {
